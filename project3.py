@@ -86,10 +86,14 @@ s5.clear()
 # # Section 3 - Racing
 # # TODO - set how much each variable changes by and increase the number of repeats to at least 30
 # # TODO - explain here which sprites are faster or slower
+
+# Sprite 2 will be slower because the numbers you can get are lower
+# Sprite 3 will be the fastest because the lowest number you can get is pretty high and the biggest number you can get is higher then the rest.
+
 for i in range(40):
     x1 += random.randint(5,15)
-    x2 += random.randint(5,10)
-    x3 += random.randint(2,18)
+    x2 += random.randint(0,9)
+    x3 += random.randint(8,18)
     x4 += random.randint(0,18)
 
     t1.goto(x1, y1)
