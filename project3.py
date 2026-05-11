@@ -79,8 +79,8 @@ s5.write("Get set...")
 time.sleep(3)
 s5.clear()
 
-s5.write("Go...")
-time.sleep(2)
+s5.write("Go!")
+time.sleep(1.5)
 s5.clear()
 
 # # Section 3 - Racing
