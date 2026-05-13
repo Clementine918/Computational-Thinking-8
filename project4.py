@@ -29,7 +29,7 @@ def make_taco():
     x = random.randint (-300,300)
     y = random.randint (-180,0)
     t1 = create_sprite ("taco", x, y)
-    time.sleep(0.1)
+    time.sleep(0.2)
     t1.hideturtle()
 window.onkeypress(make_taco, "space")
 
